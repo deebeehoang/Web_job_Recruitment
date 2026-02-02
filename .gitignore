@@ -1,85 +1,33 @@
-# ===============================
-# Java
-# ===============================
-*.class
-*.log
-
-# ===============================
-# Maven
-# ===============================
+HELP.md
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# ===============================
-# Gradle (nếu có)
-# ===============================
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# ===============================
-# Spring Boot
-# ===============================
-spring.log
-*.pid
-*.seed
-*.pid.lock
-
-# ===============================
-# IDE
-# ===============================
-
-## IntelliJ IDEA
-.idea/
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
-*.iws
 
-## Eclipse / STS
-.project
-.classpath
-.settings/
-.factorypath
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-## VS Code
+### VS Code ###
 .vscode/
-
-# ===============================
-# OS
-# ===============================
-.DS_Store
-Thumbs.db
-
-# ===============================
-# Logs & Temp
-# ===============================
-logs/
-tmp/
-temp/
-
-# ===============================
-# Environment config
-# ===============================
-.env
-.env.*
-application-*.yml
-application-*.properties
-
-# ===============================
-# Test
-# ===============================
-surefire-reports/
-failsafe-reports/
-
-# ===============================
-# Others
-# ===============================
-*.swp
-*.bak
-*.old
